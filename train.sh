@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=0,1
+python -m torch.distributed.launch --nproc_per_node 2 train.py --run_name ours_teacher_me5_baseline_me5_en_ko_fr_ru_ja --output ./output/ --log_dir ./logs --dataset_sentence wecover/OPUS --dataset_eval wecover/OPUS_Tatoeba --langs en ko fr ru ja --model intfloat/multilingual-e5-base --embed_model intfloat/multilingual-e5-base --embed_direction input --per_device_batch_size 14 --epoch 30 --lr 3e-5 --loss_type CS --w_func Softmax --cross_acc_sampling

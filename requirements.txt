@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+accelerate
+faiss-gpu
+wandb
+mteb
+sentence_transformers
+beir
+laser_encoders
