@@ -3,8 +3,8 @@
 </a></p>
 
 <p align="center">
-    <a href="">
-        <img alt="GitHub release" src="https://img.shields.io/badge/arXiv-comming soon-b31b1b.svg">
+    <a href="https://arxiv.org/abs/2405.16155">
+        <img alt="GitHub release" src="https://img.shields.io/badge/arXiv-2405.16155%20-blue.svg">
     </a>
     <a href="https://huggingface.co/datasets/wecover/OPUS">
         <img alt="Dataset release" src="https://img.shields.io/badge/Dataset-1.svg">
