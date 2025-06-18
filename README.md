@@ -56,14 +56,14 @@ You can find the evaluation results on ./results/
 To parse the result to CSV file, run the code below.
 
 ```
-python ./evaluate/result_parse.py --tasks Tatoeba_AVG BUCC_AVG STS_AVG \
+python ./utils/result_parse.py --tasks Tatoeba_AVG BUCC_AVG STS_AVG \
 --models model_paths(e.g. wecover/ours/)  > ./table.csv
 ```
 
 To parse all evaluation results, run the code below.
 
 ```
-python ./evaluate/result_parse.py --tasks Tatoeba_AVG Tatoeba BUCC_AVG BUCC STS_AVG STS \
+python ./utils/result_parse.py --tasks Tatoeba_AVG Tatoeba BUCC_AVG BUCC STS_AVG STS \
 --models model_paths(e.g. wecover/ours/) > ./table.csv
 ```
 
